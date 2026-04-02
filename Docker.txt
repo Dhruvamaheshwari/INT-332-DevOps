@@ -10,3 +10,6 @@
 
 // if you want to print the env variable
     docker run --env-file .env node env
+
+// port mapping
+    docker rum -p 3000:80 nginx {3000 is system port and 80 is nginx port jispe nginx run ho rha h to hum mapping kra rhe 3000 pe}
