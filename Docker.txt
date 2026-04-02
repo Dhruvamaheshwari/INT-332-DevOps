@@ -1,0 +1,9 @@
+// manually run and delete the container
+    docker run -it ubuntu
+    docker rm <container id>
+
+// automaticall delete when you exit the ubuntu
+    docker run --rm -it ubuntu
+
+// env file command
+    docker run 
