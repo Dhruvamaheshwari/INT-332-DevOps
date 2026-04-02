@@ -5,5 +5,8 @@
 // automaticall delete when you exit the ubuntu
     docker run --rm -it ubuntu
 
-// env file command
-    docker run 
+// env file command 
+    docker run --env-file .env node
+
+// if you want to print the env variable
+    docker run --env-file .env node env
