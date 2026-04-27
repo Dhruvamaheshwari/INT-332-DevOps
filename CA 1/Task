@@ -10,3 +10,9 @@ Task 2:
     while setting an environment variable
     ENV MODE=production. Write the docker run command to
     achieve this.
+
+Task 3: 
+    Run a Docker container named “DB-app" based on the 
+    “mongodb" image, and expose port 80 on the host to port 8082 
+    on the container?
+
