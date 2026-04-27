@@ -1,0 +1,12 @@
+Task 1:
+    •Run Ubuntu container
+    •Pass -e COLLEGE-CSE
+    •Show echo $COLLEGE
+    •Stop container then check what happeneld
+
+
+Task 2:
+    You need to start a new container using the nginx image
+    while setting an environment variable
+    ENV MODE=production. Write the docker run command to
+    achieve this.
