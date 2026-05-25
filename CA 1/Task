@@ -16,3 +16,19 @@ Task 3:
     “mongodb" image, and expose port 80 on the host to port 8082 
     on the container?
 
+Task 4 :
+    You are a DevOps engineer in a startup company. The 
+    development team asks you to quickly deploy a simple web 
+    page that displays the message:
+    Use the official httpd Docker image.
+    Run the container so it is accessible on port 8080 of the host 
+    machine.
+
+    Create or update an HTML file inside the container to display the 
+    required message.
+        ans => exec -it my-server bash -c "echo '<h1 style="color:red">My Name is Dhruva Maheshwari </h1>' > /usr/local/apache2/htdocs/index.html"
+        
+    Verify the output using a command-line tool.
+    Properly stop and remove the container after testing.
+
+    
